@@ -1,6 +1,5 @@
 import { ButtonMobile } from '@alfalab/core-components/button/mobile';
 import { CDNIcon } from '@alfalab/core-components/cdn-icon';
-import { Gap } from '@alfalab/core-components/gap';
 import { Typography } from '@alfalab/core-components/typography';
 import { animated, useInView, useSpring } from '@react-spring/web';
 import 'swiper/css';
@@ -202,7 +201,7 @@ export const App = () => {
           </div>
         ))}
       </div>
-      <Gap size={128} />
+      <div style={{ height: '162px' }} />
       <animated.div className={appSt.bottomBtn} style={springs}>
         <ButtonMobile block view="primary" onClick={submit} className={appSt.hint}>
           <div className={appSt.btnContainer}>
