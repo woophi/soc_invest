@@ -97,6 +97,7 @@ const iconWrapRed = style({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
+  flexShrink: 0,
 });
 
 const lineCell = style({
