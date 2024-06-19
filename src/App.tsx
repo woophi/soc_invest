@@ -94,7 +94,7 @@ const cells = [
 
 const submit = () => {
   (window.location as unknown as string) =
-    'alfabank://webFeature?type=recommendation&url=https%3A%2F%2Fclick.alfabank.ru%2Fmobile-offers%2Fweb%2FPIL%2Fcredits%2FCH?isWebView=true';
+    'alfabank://webFeature?type=recommendation&url=https%3A%2F%2Falfabank.ru%2Fmake-money%2Finvestments%2Fpromo%2Fdeti%2F';
 };
 
 export const App = () => {
