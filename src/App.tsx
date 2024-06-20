@@ -93,8 +93,7 @@ const cells = [
 ];
 
 const submit = () => {
-  (window.location as unknown as string) =
-    'alfabank://webFeature?type=recommendation&url=https%3A%2F%2Falfabank.ru%2Fmake-money%2Finvestments%2Fpromo%2Fdeti%2F';
+  window.location.replace('alfabank://longread?endpoint=v1/adviser/longreads/17694');
 };
 
 export const App = () => {
