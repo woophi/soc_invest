@@ -1,3 +1,4 @@
+import * as bts from '@alfalab/bridge-to-native';
 import { ButtonMobile } from '@alfalab/core-components/button/mobile';
 import { CDNIcon } from '@alfalab/core-components/cdn-icon';
 import { Typography } from '@alfalab/core-components/typography';
@@ -98,6 +99,8 @@ const submit = () => {
 
 export const App = () => {
   const [inViewRef, inView] = useInView();
+
+  console.debug(bts);
 
   const springs = useSpring({
     from: { bottom: -200 },

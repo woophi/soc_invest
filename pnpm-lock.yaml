@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@alfalab/bridge-to-native':
+        specifier: ^0.0.13
+        version: 0.0.13
       '@alfalab/core-components':
         specifier: ^46.0.0
         version: 46.0.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -65,6 +68,9 @@ importers:
         version: 5.2.11(@types/node@20.12.12)
 
 packages:
+
+  '@alfalab/bridge-to-native@0.0.13':
+    resolution: {integrity: sha512-gj4O0OWUD25/WQCHCWjVw76+lmdfL2cfdcuTke7f2ZlOHgyfRL3wMNlMsQY7BAVoBOnoW1/BoBu7rsRdr0l8FQ==}
 
   '@alfalab/core-components@46.0.0':
     resolution: {integrity: sha512-mF57QGlRMmthRo7emKO9oAaKEGCnNLBodkXnQXUPqHXswNbTEhsWntpI0830jmjP/l5h2wGBFXCjQ/UuLuzzVQ==}
@@ -1990,6 +1996,8 @@ packages:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
 
 snapshots:
+
+  '@alfalab/bridge-to-native@0.0.13': {}
 
   '@alfalab/core-components@46.0.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
